@@ -1,14 +1,12 @@
 
 header {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
-
-header h1 {
-    float: left;
-}
-
 nav {
+    display: inline;
     float: right;
 }
 
@@ -20,18 +18,20 @@ a {
 
 #aboutme {
     display: inline-flex;
+    align-items: center;
 }
 .me {
     float:right;
     width: 20%;
 }
 
-#project {
-    margin-bottom: 15%;
+.project {
+    margin-bottom: 5%;
 }
 
 .skill {
     display: inline-flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -42,5 +42,34 @@ img {
 
 footer {
     text-align: center;
-    margin-top: 25%;
+    margin-top: 15%;
+}
+
+@media only screen and (max-width: 700px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        display: block;
+        text-align: center;
+    }
+    nav {
+        float: none;
+    }
+    #aboutme {
+        display: block;
+    }
+    .skill{
+        display: block;
+    }
+    .me {
+        float: none;
+        margin:0 25%;
+        width: 50%;
+    }
+    img {
+        width: 50%;
+        margin:0 25%;
+    }
 }
