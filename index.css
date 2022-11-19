@@ -1,4 +1,7 @@
-
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+}
 header {
     display: inline-flex;
     justify-content: space-between;
@@ -22,7 +25,6 @@ a {
 }
 .me {
     float:right;
-    width: 20%;
 }
 
 .project {
@@ -36,7 +38,7 @@ a {
 }
 
 img {
-    width: 5%;
+    width: 20%;
     margin: 0 auto;
 }
 
