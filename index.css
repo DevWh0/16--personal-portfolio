@@ -1,0 +1,46 @@
+
+header {
+    display: inline-block;
+    width: 100%;
+}
+
+header h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+a {
+    color : black;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+#aboutme {
+    display: inline-flex;
+}
+.me {
+    float:right;
+    width: 20%;
+}
+
+#project {
+    margin-bottom: 15%;
+}
+
+.skill {
+    display: inline-flex;
+    width: 100%;
+}
+
+img {
+    width: 5%;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 25%;
+}
